@@ -12,6 +12,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 10.x
+          cache: pnpm
       - name: pnpm install and build
         run: |
           pnpm install
