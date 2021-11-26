@@ -2,14 +2,20 @@ name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+      - name: pnpm install and build
+        run: |
+          pnpm install
+          pnpm run build
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
