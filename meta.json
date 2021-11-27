@@ -9,6 +9,7 @@
     "tailwind": "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
   },
   "match": ["https://leetcode.com/*"],
-  "updateURL": "https://",
-  "grant": ["GM_addStyle", "GM_getResourceText"]
+  "grant": ["GM_addStyle", "GM_getResourceText"],
+  "updateURL": "https://raw.githubusercontent.com/gino20/leetcode-tools/build/user.js",
+  "downloadURL": "https://raw.githubusercontent.com/gino20/leetcode-tools/build/user.js"
 }
