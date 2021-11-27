@@ -7,7 +7,8 @@
 // @require     https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css
 // @resource    tailwind https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css
 // @match       https://leetcode.com/*
-// @updateURL   https://
+// @updateURL   https://raw.githubusercontent.com/gino20/leetcode-tools/build/user.js
+// @downloadURL https://raw.githubusercontent.com/gino20/leetcode-tools/build/user.js
 // @version     0.1.0
 // @homepage    https://github.com/gino20/leetcode-links#readme
 // @author      gino20
